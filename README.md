@@ -1,9 +1,12 @@
 # apkreverse
 
----
+<p align="left">
+	<a href="https://kotlinlang.org/"><img src="https://img.shields.io/badge/made%20with-Kotlin-purple"></a>
+    <a href="https://learn.microsoft.com/pt-br/cpp/cpp/?view=msvc-170"><img src="https://img.shields.io/badge/made%20with-cpp-pink"></a>
+	<a href="#"><img src="https://img.shields.io/badge/platform-osx%2Flinux%2Fwindows-blueviolet"></a>
+</p>
 
 `apkreverse` is simply a proof of concept (POC) of an application that runs reverse shell using `kotlin` and calling the native `C++` lib
-
 
 # Usage
 When performing the tests, change the IP and Port in the path found in app/src/main/cpp/reverseshell.cpp
